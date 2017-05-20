@@ -4,7 +4,7 @@ import com.njq.nongfadai.mockito.bean.User;
 
 public interface IUserService {
 
-	public int addUser(User user);
+	public void addUser(User user);
 
 	public int deleteUserById(Integer id);
 

@@ -5,9 +5,7 @@ import com.njq.nongfadai.mockito.bean.User;
 public class UserServiceImpl implements IUserService {
 
 	@Override
-	public int addUser(User user) {
-		
-		return 0;
+	public void addUser(User user) {
 	}
 
 	@Override
